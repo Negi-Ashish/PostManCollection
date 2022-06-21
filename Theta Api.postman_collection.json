@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "13c34d97-1a8d-4585-8b1d-094afcf1e458",
+		"name": "Theta Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19752410"
+	},
+	"item": [
+		{
+			"name": "TNT721",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://explorer.thetatoken.org:8443/api/account/tokenTx/0x72a28066c5d283e917ccdf46bda1dac2e8ff278c?type=TNT-721&pageNumber=1&limit=20",
+					"protocol": "https",
+					"host": [
+						"explorer",
+						"thetatoken",
+						"org"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"account",
+						"tokenTx",
+						"0x72a28066c5d283e917ccdf46bda1dac2e8ff278c"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "TNT-721"
+						},
+						{
+							"key": "pageNumber",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TNT20",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://explorer.thetatoken.org:8443/api/account/tokenTx/0x72a28066c5d283e917ccdf46bda1dac2e8ff278c?type=TNT-20&pageNumber=1&limit=20",
+					"protocol": "https",
+					"host": [
+						"explorer",
+						"thetatoken",
+						"org"
+					],
+					"port": "8443",
+					"path": [
+						"api",
+						"account",
+						"tokenTx",
+						"0x72a28066c5d283e917ccdf46bda1dac2e8ff278c"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "TNT-20"
+						},
+						{
+							"key": "pageNumber",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OpenTheta Collection api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.opentheta.io/my?collection=0x72a28066c5d283e917ccdf46bda1dac2e8ff278c",
+					"protocol": "https",
+					"host": [
+						"api",
+						"opentheta",
+						"io"
+					],
+					"path": [
+						"my"
+					],
+					"query": [
+						{
+							"key": "collection",
+							"value": "0x72a28066c5d283e917ccdf46bda1dac2e8ff278c"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ThetaScan API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.thetascan.io/api/721/?address=0x72a28066C5d283e917cCDF46bDa1dAC2E8FF278c&type=transactions&index=0",
+					"protocol": "https",
+					"host": [
+						"www",
+						"thetascan",
+						"io"
+					],
+					"path": [
+						"api",
+						"721",
+						""
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "0x72a28066C5d283e917cCDF46bDa1dAC2E8FF278c"
+						},
+						{
+							"key": "type",
+							"value": "transactions"
+						},
+						{
+							"key": "index",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NFT owned by address",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "CountNFT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.thetascan.io/api/721/?address=0x1EE32bb9123476Ee630ccC09DCFD87172d1BFF4a&type=count",
+					"protocol": "http",
+					"host": [
+						"www",
+						"thetascan",
+						"io"
+					],
+					"path": [
+						"api",
+						"721",
+						""
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "0x1EE32bb9123476Ee630ccC09DCFD87172d1BFF4a"
+						},
+						{
+							"key": "type",
+							"value": "count"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All NFT for a specific Contract",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
